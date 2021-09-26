@@ -1,0 +1,193 @@
+:root {
+  --primary: #fc574e;
+  --secundary: white;
+  --neutro: #012326;
+  --neutro2: #02020d;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html{
+  font-family: 'PT Sans', sans-serif;
+  height: 100%;
+}
+
+body{
+    height: 100%;
+}
+
+.app {
+  background: var(--neutro);
+  height: 100%;
+}
+
+.navbar{
+    background: var(--neutro2);
+    color: var(--secundary);
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem;
+}
+
+.navbar-options{
+    display: flex;
+}
+
+.navbar-options>button{
+    padding: 0.5rem;
+    background: var(--primary);
+}
+
+.body{
+    display: flex;
+    height: auto;
+    position: absolute;
+    background: var(--neutro);
+}
+
+.nav-lateral{
+    width: 20%;
+    padding: 1rem;
+    color: white;
+    background: black;
+}
+
+ul{
+    list-style-type: none;
+}
+
+.item-nav-lateral{
+    padding: 0.35rem;
+}
+
+.item-nav-lateral:hover{
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.item-nav-lateral>i{
+    margin-right: 0.5rem;
+}
+
+.container{
+    width: 80%;
+    margin: 1rem 2rem;
+    background: var(--neutro);
+}
+
+.navbar-dashboard{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.navbar-options-dashboard{
+    display: flex;
+}
+
+.input{
+    background: white;
+    padding: 0.35rem;
+    border-radius: 2px;
+}
+
+.input>input{
+    border: none;
+}
+
+textarea:focus, input:focus{
+    outline: none;
+}
+
+.card{
+    width: 100%;
+    height: 100%;
+    padding: 0.5rem;
+}
+
+.card-description{
+    background: white;
+    padding: 00.5rem;
+}
+
+.card .duration{
+    font-size: small;
+}
+
+.card img{
+    width: 100%;
+}
+
+.player{
+    display: flex;
+    position: fixed;
+    width: 100%;
+    right: 0;
+    bottom: 0;
+    justify-content: space-between;
+    background: var(--neutro);
+    padding: 1rem;
+    border-top: 1px white solid;
+    align-items: center;
+}
+
+.player-option{
+    background: var(--neutro);
+    color: white;
+    margin: 0 0.5rem;
+}
+
+.play{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background: white;
+    color: var(--neutro);
+}
+
+
+
+.song-view{
+    width: 50px;
+}
+
+.song-view>img{
+    width: 100%;
+}
+
+.m-1{
+    margin: 0.5rem;
+}
+
+.mt-1{
+    margin-top: 0.5rem;
+}
+
+.mb-1{
+    margin-bottom: 0.5rem;
+}
+
+.mr-1{
+    margin-right: 0.5rem;
+}
+
+.ml-1{
+    margin-left: 0.5rem;
+}
+
+button{
+    border: none;
+    border-radius: 2px;
+    font-weight: bold;
+}
+
+.row{
+    display: flex;
+}
+
+.col-25{
+    min-width: 25%;
+}
